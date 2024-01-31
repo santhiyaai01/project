@@ -69,7 +69,17 @@ int modulas()
     cout<<"\n Value of modulas l:"<<j%k;
     return 0;
 }
-
+int increment()
+{
+    int m,n,o;
+    cout<<"\n Value for m:";
+    cin>>m;
+    cout<<"\n Value for n:";
+    cin>>n;
+      o=m++;
+    cout<<"\n Value of increment :"<<m++;
+    return 0;
+}
 int main()
 {
 
@@ -80,6 +90,7 @@ int main()
     addition();
     division();
     modulas();
+    increment();
     return 0;
 }
 
