@@ -1,4 +1,4 @@
-# int
+'''# int
 a=10
 print(a)
 print(type(a))
@@ -90,6 +90,13 @@ colour = ["blue","red","black"]
 for x in colour:
   print(x)
   if x=="red":
-    break
+    break'''
+
+  # silicing string
+a= "Hello, world!"
+print(a[2:5])
+print(a[:4])
+
+print("வெல்கம் டு கிரேட் கரிகாலன் மேஜிக் ஷோ")
 
 
